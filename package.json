@@ -19,7 +19,11 @@
     "api"
   ],
   "dependencies": {
-    "peerdep": "^0.1.0"
+    "peerdep": "^0.1.0",
+    "lodash": "^3.2.0",
+    "debug": "^2.1.1",
+    "deep-extend": "^0.3.2",
+    "errors": "^0.2.0"
   },
   "peerDependencies": {
     "keystone": "^0.2.42"
