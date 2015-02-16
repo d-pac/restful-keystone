@@ -11,6 +11,5 @@
   "eqnull": true,
   "node": true,
   "laxbreak": true,
-  "expr": true,
-  "quotmark": "double"
+  "expr": true
 }
