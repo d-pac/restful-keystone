@@ -1,6 +1,6 @@
 {
   "name": "keystone-restful",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Automatic RESTful API enabler for KeystoneJS",
   "author": {
     "name": "d-pac",
