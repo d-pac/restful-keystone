@@ -11,5 +11,6 @@
   "eqnull": true,
   "node": true,
   "laxbreak": true,
-  "expr": true
+  "expr": true,
+  "laxcomma": true
 }

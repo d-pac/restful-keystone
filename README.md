@@ -10,7 +10,7 @@ It allows for very granular control of editable fields, population, filters and 
 ## Install
 
 ```sh
-$ npm install --save keystone-restful
+$ npm install --save restful-keystone
 ```
 
 ## Usage
@@ -21,7 +21,7 @@ $ npm install --save keystone-restful
 
 ```js
 // file: routes/index.js
-var restful = require('keystone-restful');
+var restful = require('restful-keystone');
 
 // ...
 
@@ -72,7 +72,7 @@ Status: 200 OK
             "categories": [],
             "content": {
                 "brief": "<p>This is a test</p>",
-                "extended": "<p>To make sure keystone-restful is functioning correctly</p>"
+                "extended": "<p>To make sure restful-keystone is functioning correctly</p>"
             },
             "state": "published"
         }
@@ -82,7 +82,7 @@ Status: 200 OK
 
 ### Configuration
 
-A number of keystone-restful specific options can be passed to the module to configure how it functions:
+A number of restful-keystone specific options can be passed to the module to configure how it functions:
 
 #### `root`
 
@@ -160,7 +160,7 @@ Idem to `show`, except it configures which fields are editable. All fields passe
 
 **{Boolean|String}** default: `"<%=name%>"`
 
-Used for enveloping the results (which is definitely best practice, _especially_ when multiple resources are returned). 
+Used for enveloping the results (which is definitely best practice, _especially_ when multiple resources are returned).
 **By default this will be the singular or plural version of the list name**, e.g. `"posts"` or `"post"`.
 
 ```sh
@@ -184,7 +184,7 @@ Status: 200 OK
 	    "categories": [],
 	    "content": {
 	        "brief": "<p>This is a test</p>",
-	        "extended": "<p>To make sure keystone-restful is functioning correctly</p>"
+	        "extended": "<p>To make sure restful-keystone is functioning correctly</p>"
 	    },
 	    "state": "published"
 	}
@@ -234,7 +234,7 @@ Status: 200 OK
 	    "categories": [],
 	    "content": {
 	        "brief": "<p>This is a test</p>",
-	        "extended": "<p>To make sure keystone-restful is functioning correctly</p>"
+	        "extended": "<p>To make sure restful-keystone is functioning correctly</p>"
 	    },
 	    "state": "published"
 	}
@@ -347,11 +347,11 @@ Status: 200 OK
 
 All requests respond with a `200 OK` status if the request was succesful, except for `remove` requests which will return `204 No Content`.
 
-When something goes wrong appropriate errors are thrown, however keystone-restful does not provide any error handling out of the box, i.e. you need to make sure you have some kind of error handling middleware in place.
+When something goes wrong appropriate errors are thrown, however restful-keystone does not provide any error handling out of the box, i.e. you need to make sure you have some kind of error handling middleware in place.
 
 ### Permissions
 
-Keystone-restful does **NOT** provide any security checks, i.e. if you expose a resource it is available to anonymous requests !!
+restful-keystone does **NOT** provide any security checks, i.e. if you expose a resource it is available to anonymous requests !!
 You need to set up any restrictions you want to see applied to routes yourself. (Probably this will change in the near future)
 
 ## Roadmap
@@ -367,9 +367,9 @@ You need to set up any restrictions you want to see applied to routes yourself. 
 MIT © [d-pac](http://www.d-pac.be)
 
 
-[npm-url]: https://npmjs.org/package/keystone-restful
-[npm-image]: https://badge.fury.io/js/keystone-restful.svg
-[travis-url]: https://travis-ci.org/d-pac/keystone-restful
-[travis-image]: https://travis-ci.org/d-pac/keystone-restful.svg?branch=master
-[daviddm-url]: https://david-dm.org/d-pac/keystone-restful.svg?theme=shields.io
-[daviddm-image]: https://david-dm.org/d-pac/keystone-restful
+[npm-url]: https://npmjs.org/package/restful-keystone
+[npm-image]: https://badge.fury.io/js/restful-keystone.svg
+[travis-url]: https://travis-ci.org/d-pac/restful-keystone
+[travis-image]: https://travis-ci.org/d-pac/restful-keystone.svg?branch=master
+[daviddm-url]: https://david-dm.org/d-pac/restful-keystone.svg?theme=shields.io
+[daviddm-image]: https://david-dm.org/d-pac/restful-keystone

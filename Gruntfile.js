@@ -11,5 +11,6 @@ module.exports = function( grunt ){
 
   grunt.initConfig( configs );
 
-  grunt.registerTask( 'default', [ 'jshint', 'mochacli' ] );
+  grunt.registerTask( 'lint', [ 'jshint', 'jscs' ] );
+  grunt.registerTask( 'default', [ 'lint', 'mochacli' ] );
 };

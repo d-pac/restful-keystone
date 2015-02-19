@@ -1,5 +1,5 @@
 {
-  "name": "keystone-restful",
+  "name": "restful-keystone",
   "version": "0.1.0",
   "description": "Automatic RESTful API enabler for KeystoneJS",
   "author": {
@@ -7,13 +7,13 @@
     "email": "info@d-pac.be",
     "url": "http://www.d-pac.be"
   },
-  "repository": "d-pac/keystone-restful",
+  "repository": "d-pac/restful-keystone",
   "license": "MIT",
   "files": [
     "index.js"
   ],
   "keywords": [
-    "keystone-restful",
+    "restful-keystone",
     "keystone",
     "rest",
     "api"
@@ -22,9 +22,11 @@
     "peerdep": "^0.1.0",
     "lodash": "^3.2.0",
     "debug": "^2.1.1",
-    "deep-extend": "^0.3.2",
     "errors": "^0.2.0",
-    "bluebird": "^2.9.9"
+    "bluebird": "^2.9.9",
+    "require-directory": "^2.0.0",
+    "node-constants": "0.0.2",
+    "deepmerge": "^0.2.7"
   },
   "peerDependencies": {
     "keystone": "^0.2.42"
@@ -37,7 +39,10 @@
     "jshint-stylish": "^1.0.0",
     "jit-grunt": "^0.9.1",
     "load-grunt-configs": "^0.4.2",
-    "grunt-jscs": "^1.5.0"
+    "grunt-jscs": "^1.5.0",
+    "must": "^0.12.0",
+    "sinon": "^1.12.2",
+    "proxyquire": "^1.3.1"
   },
   "scripts": {
     "test": "grunt",
