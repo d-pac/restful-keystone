@@ -10,8 +10,10 @@
   "repository": "d-pac/restful-keystone",
   "license": "MIT",
   "files": [
-    "index.js"
+    "index.js",
+    "lib"
   ],
+  "main": "index.js",
   "keywords": [
     "restful-keystone",
     "keystone",
