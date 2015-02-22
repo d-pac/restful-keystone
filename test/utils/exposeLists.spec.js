@@ -7,8 +7,8 @@ var _ = require( "lodash" );
 var sinon = require( "sinon" );
 var stub = require( "proxyquire" ).noCallThru();
 var expect = require( "must" );
-var fx = require( "./fixtures" );
-var constants = require( "../lib/constants" );
+var fx = require( "./../fixtures/index" );
+var constants = require( "../../lib/constants" );
 
 var EMPTY = {};
 
@@ -17,7 +17,7 @@ describe( "lib.utils.exposeLists", function(){
     , libStub;
   beforeEach( function(){
     libStub = {};
-    subject = require( "../lib/utils/exposeLists" );
+    subject = require( "../../lib/utils/exposeLists" );
   } );
 
   describe( "spec file", function(){

@@ -7,9 +7,9 @@ var _ = require( "lodash" );
 var sinon = require( "sinon" );
 //var stub = require( "proxyquire" );
 var expect = require( "must" );
-var fx = require( "./fixtures" ).parseMiddlewareConfig;
-var subject = require( "../lib/utils/parseMiddlewareConfig" );
-var constants = require( "../lib/constants" );
+var fx = require( "./../fixtures/index" ).parseMiddlewareConfig;
+var subject = require( "../../lib/utils/parseMiddlewareConfig" );
+var constants = require( "../../lib/constants" );
 
 describe( 'lib.utils.parseMiddlewareConfig', function(){
   describe( "spec file", function(){

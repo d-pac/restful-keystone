@@ -4,6 +4,6 @@ module.exports.tasks = {
       reporter : 'spec',
       bail     : true
     },
-    all     : [ 'test/*.js' ]
+    all     : [ 'test/**/*.spec.js' ]
   }
 };

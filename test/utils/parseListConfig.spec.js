@@ -7,9 +7,9 @@ var _ = require( "lodash" );
 var sinon = require( "sinon" );
 var stub = require( "proxyquire" );
 var expect = require( "must" );
-var fx = require( "./fixtures" );
-var constants = require( "../lib/constants" );
-var subject = require( "../lib/utils/parseListConfig" );
+var fx = require( "./../fixtures/index" );
+var constants = require( "../../lib/constants" );
+var subject = require( "../../lib/utils/parseListConfig" );
 
 var EMPTY = {};
 
