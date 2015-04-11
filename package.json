@@ -1,6 +1,6 @@
 {
   "name": "restful-keystone",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Automatic RESTful API enabler for KeystoneJS",
   "author": {
     "name": "d-pac",
@@ -31,7 +31,7 @@
     "deepmerge": "^0.2.7"
   },
   "peerDependencies": {
-    "keystone": "^0.2.42"
+    "keystone": "^0.3.0"
   },
   "devDependencies": {
     "grunt-cli": "^0.1.13",
