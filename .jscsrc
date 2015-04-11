@@ -49,7 +49,6 @@
     "try",
     "catch"
   ],
-  "requireDotNotation": true,
   "requireKeywordsOnNewLine": [],
   "requireLineFeedAtFileEnd": true,
   "requirePaddingNewLinesInObjects": true,

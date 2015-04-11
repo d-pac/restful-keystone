@@ -62,7 +62,9 @@ describe( "lib/methods/list", function(){
           model : fx.model
         } );
         req = {
-          param : sinon.stub()
+          params : {},
+          query  : {},
+          body   : {}
         };
       } );
       afterEach( function(){
@@ -76,20 +78,20 @@ describe( "lib/methods/list", function(){
           handle : sinon.spy()
         };
         stubs[ "./retrieve" ].returns( retrieveResult );
-        req.param.returns( "a valid id" );
+        req.params.id = "a valid id";
         config.handle( req );
         expect( stubs[ "./retrieve" ].callCount ).to.equal( 1 );
         expect( retrieveResult.handle.callCount ).to.equal( 1 );
       } );
       it( "should use a `filter` param", function(){
         var filter = {};
-        req.param.withArgs( "filter" ).returns( filter );
+        req.params.filter = filter;
         config.handle( req );
         expect( fx.model.findStub.calledWith( filter ) ).to.be.true();
       } );
       it( "should translate a `filter` param string to an object", function(){
         var filter = "{}";
-        req.param.withArgs( "filter" ).returns( filter );
+        req.params.filter = filter;
         config.handle( req );
         expect( fx.model.findStub.args[ 0 ] ).to.eql( [
           {}, undefined, {
@@ -132,7 +134,7 @@ describe( "lib/methods/list", function(){
         }, {
           filter : cFilter
         } );
-        req.param.withArgs( "filter" ).returns( rFilter );
+        req.query.filter = rFilter;
         config.handle( req );
         expect( fx.model.findStub.getCall( 0 ).args[ 0 ] ).to.eql( {
           a : "cFilter",
