@@ -5,8 +5,6 @@
 This module allows you to easily expose your keystone models through a REST API.
 It allows for very granular control of editable fields, population, filters and more through configuration.
 
-**At the moment it's only tested with keystone v0.2.x. It will soon be updated to allow use in v0.3.x!**
-
 #### Features
 
 * Extremely easy setup
@@ -86,7 +84,7 @@ Status: 200 OK
 }
 ```
 
-By default it will setup these routes: 
+By default it will setup these routes:
 
 * `GET /api/<collection>`: a **`list`** operation; returns all of the resources
 * `POST /api/<collection>`: a **`create`** operation; creates a new resource in the collection
@@ -558,7 +556,8 @@ You need to set up any restrictions you want to see applied to routes yourself.
 
 ## Changelog
 
-* **v0.2** 
+* **v0.3** make compatible with Keystone v0.3 (i.e. express 4)
+* **v0.2**
     * API improvements
     * added `before` and `after` hooks
 * **v0.1** initial API
