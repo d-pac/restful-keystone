@@ -1,13 +1,13 @@
 {
-  "name": "restful-keystone",
-  "version": "0.3.0",
+  "name": "restful-keystone-adv",
+  "version": "0.0.2",
   "description": "Automatic RESTful API enabler for KeystoneJS",
   "author": {
-    "name": "d-pac",
-    "email": "info@d-pac.be",
-    "url": "http://www.d-pac.be"
+    "name": "W-Fang",
+    "email": "lancefangw@gmail.com",
+    "url": "https://github.com/WofloW"
   },
-  "repository": "d-pac/restful-keystone",
+  "repository": "WofloW/restful-keystone",
   "license": "MIT",
   "files": [
     "index.js",
@@ -31,7 +31,7 @@
     "deepmerge": "^0.2.7"
   },
   "peerDependencies": {
-    "keystone": "^0.3.0"
+    "keystone-adv": "^0.3.0"
   },
   "devDependencies": {
     "grunt-cli": "^0.1.13",

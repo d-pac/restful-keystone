@@ -556,7 +556,7 @@ You need to set up any restrictions you want to see applied to routes yourself.
 
 ## Changelog
 
-* **v0.3** make compatible with Keystone v0.3 (i.e. express 4)
+* **v0.1** make compatible with Keystone v0.3 (i.e. express 4)
 * **v0.2**
     * API improvements
     * added `before` and `after` hooks
@@ -565,7 +565,7 @@ You need to set up any restrictions you want to see applied to routes yourself.
 ## License
 
 MIT © [d-pac](http://www.d-pac.be)
-
+MIT © [woflow](https://github.com/WofloW)
 
 [npm-url]: https://npmjs.org/package/restful-keystone
 [npm-image]: https://badge.fury.io/js/restful-keystone.svg
