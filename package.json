@@ -21,17 +21,15 @@
     "api"
   ],
   "dependencies": {
-    "peerdep": "^0.1.0",
-    "lodash": "^3.2.0",
-    "debug": "^2.1.1",
-    "errors": "^0.2.0",
     "bluebird": "^2.9.9",
-    "require-directory": "^2.0.0",
+    "debug": "^2.1.1",
+    "deepmerge": "^0.2.7",
+    "errors": "^0.2.0",
+    "file-type": "^2.9.0",
+    "lodash": "^3.2.0",
     "node-constants": "0.0.2",
-    "deepmerge": "^0.2.7"
-  },
-  "peerDependencies": {
-    "keystone": "^0.3.0"
+    "peerdep": "^0.1.0",
+    "require-directory": "^2.0.0"
   },
   "devDependencies": {
     "grunt-cli": "^0.1.13",
