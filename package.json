@@ -1,7 +1,7 @@
 {
   "name": "restful-keystone-adv",
-  "version": "0.0.2",
-  "description": "Automatic RESTful API enabler for KeystoneJS",
+  "version": "0.0.3",
+  "description": "Automatic RESTful API enabler for KeystoneJS supporting pagination",
   "author": {
     "name": "W-Fang",
     "email": "lancefangw@gmail.com",
@@ -31,7 +31,7 @@
     "deepmerge": "^0.2.7"
   },
   "peerDependencies": {
-    "keystone-adv": "^0.3.0"
+    "keystone": "^0.3.14"
   },
   "devDependencies": {
     "grunt-cli": "^0.1.13",
