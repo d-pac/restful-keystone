@@ -308,7 +308,7 @@ Will only operate on Article documents that have a `"published"` value in `"stat
 
 ##### `populate`
 
-**{Boolean|String|String[]}** default: `false`
+**{Boolean|String|String[]|Object[]}** default: `false`
 
 Allows automatic population of relationship fields.
 
