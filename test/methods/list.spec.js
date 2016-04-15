@@ -56,6 +56,11 @@ describe( "lib/methods/list", function(){
 
     describe( "#handle", function(){
       var config, req;
+      // // var query = fx.model.find( {} );
+      // fx.model.find().count = function( cb ){
+      //   var count = 5;
+      //   return cb( count );
+      // };
       beforeEach( function(){
         config = subject( {
           path  : "test",
