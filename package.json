@@ -31,7 +31,6 @@
     "deepmerge": "^0.2.7"
   },
   "devDependencies": {
-    "grunt": "^1.0.1",
     "grunt-cli": "^0.1.13",
     "grunt-contrib-jshint": "^0.10.0",
     "grunt-jscs": "^1.5.0",
