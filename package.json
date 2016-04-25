@@ -1,6 +1,6 @@
 {
   "name": "restful-keystone-adv",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Automatic RESTful API enabler for KeystoneJS supporting pagination",
   "author": {
     "name": "W-Fang",
