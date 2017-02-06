@@ -42,13 +42,11 @@
     "jshint-stylish": "^2.2.1",
     "load-grunt-configs": "^1.0.0",
     "must": "^0.13.4",
-    "peerdep": "^0.1.0",
     "proxyquire": "^1.7.11",
     "sinon": "^1.17.7",
     "time-grunt": "^1.4.0"
   },
   "scripts": {
-    "test": "grunt",
-    "install": "peerdep"
+    "test": "grunt"
   }
 }
