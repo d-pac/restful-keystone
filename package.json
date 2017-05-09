@@ -1,13 +1,13 @@
 {
-  "name": "restful-keystone",
-  "version": "0.3.0",
-  "description": "Automatic RESTful API enabler for KeystoneJS",
+  "name": "restful-keystone-adv",
+  "version": "0.0.7",
+  "description": "Automatic RESTful API enabler for KeystoneJS supporting pagination",
   "author": {
-    "name": "d-pac",
-    "email": "info@d-pac.be",
-    "url": "http://www.d-pac.be"
+    "name": "W-Fang",
+    "email": "lancefangw@gmail.com",
+    "url": "https://github.com/WofloW"
   },
-  "repository": "d-pac/restful-keystone",
+  "repository": "WofloW/restful-keystone",
   "license": "MIT",
   "files": [
     "index.js",
@@ -30,21 +30,18 @@
     "node-constants": "0.0.2",
     "deepmerge": "^0.2.7"
   },
-  "peerDependencies": {
-    "keystone": "^0.3.0"
-  },
   "devDependencies": {
     "grunt-cli": "^0.1.13",
     "grunt-contrib-jshint": "^0.10.0",
-    "time-grunt": "^1.0.0",
-    "grunt-mocha-cli": "^1.11.0",
-    "jshint-stylish": "^1.0.0",
-    "jit-grunt": "^0.9.1",
-    "load-grunt-configs": "^0.4.2",
     "grunt-jscs": "^1.5.0",
+    "grunt-mocha-cli": "^1.11.0",
+    "jit-grunt": "^0.9.1",
+    "jshint-stylish": "^1.0.0",
+    "load-grunt-configs": "^0.4.2",
     "must": "^0.12.0",
+    "proxyquire": "^1.3.1",
     "sinon": "^1.12.2",
-    "proxyquire": "^1.3.1"
+    "time-grunt": "^1.0.0"
   },
   "scripts": {
     "test": "grunt",
